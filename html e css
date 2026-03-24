@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículo - Morada</title>
+
+<style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Verdana', sans-serif;
+}
+
+
+body {
+    background: linear-gradient(to right, #000000, #8B0000);
+    padding: 30px;
+}
+
+
+.folha-a4 {
+    max-width: 1000px;
+    margin: auto;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 0 30px rgba(255,0,0,0.5);
+    overflow: hidden;
+}
+
+
+#DivInicial {
+    background: linear-gradient(to right, #000, #ff0000);
+    text-align: center;
+    padding: 40px;
+    color: white;
+}
+
+#DivInicial h1 {
+    font-size: 42px;
+}
+
+.Banda {
+    color: #ddd;
+}
+
+.frase {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.corpo-curriculo {
+    display: flex;
+}
+
+
+#DivLateral {
+    width: 30%;
+    background: #f0f0f0;
+    padding: 25px;
+    border-right: 3px solid red;
+}
+
+#DivA {
+    width: 70%;
+    padding: 25px;
+}
+
+
+h2 {
+    border-left: 5px solid red;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 25px;
+    padding: 10px;
+}
+
+section:hover {
+    transform: scale(1.02);
+    transition: 0.3s;
+}
+
+ul {
+    list-style: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    background: red;
+    color: white;
+    padding: 8px;
+}
+
+td {
+    padding: 8px;
+    text-align: center;
+}
+@media (max-width: 768px) {
+    .corpo-curriculo {
+        flex-direction: column;
+    }
+
+    #DivLateral, #DivA {
+        width: 100%;
+    }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="folha-a4">
+
+<header id="DivInicial">
+    <h1>Morada</h1>
+    <h2 class="Banda">Banda Gospel</h2>
+    <p class="frase">"O céu habita em nós."</p>
+</header>
+
+<div class="corpo-curriculo">
+
+<aside id="DivLateral">
+
+<section>
+<h2>Membros</h2>
+<ul>
+    <li>Brunão Morada</li>
+    <li>Miriam Cavalcante</li>
+    <li>Moisés Henrique</li>
+    <li>Felipe Henri</li>
+    <li>Manoel Castro</li>
+    <li>Séfer Dillan</li>
+</ul>
+</section>
+
+<section>
+<h2>Quem são</h2>
+<p>
+A Banda Morada surgiu em 2009 e se tornou referência na música gospel brasileira, trazendo uma mistura de estilos e mensagens de fé.
+</p>
+</section>
+
+</aside>
+
+<main id="DivA">
+
+<section>
+<h2>Contato</h2>
+<ul>
+    <li>Email: contato@morada.com</li>
+    <li>YouTube: Morada Oficial</li>
+    <li>Instagram: @moradaoficial</li>
+</ul>
+</section>
+
+<section>
+<h2>Álbuns</h2>
+
+<table>
+<tr>
+    <th>Ano</th>
+    <th>Álbum</th>
+</tr>
+<tr>
+    <td>2009</td>
+    <td>Morada em Mim</td>
+</tr>
+<tr>
+    <td>2013</td>
+    <td>Atenção</td>
+</tr>
+<tr>
+    <td>2019</td>
+    <td>É Tudo Sobre Você</td>
+</tr>
+<tr>
+    <td>2021</td>
+    <td>Intimidade</td>
+</tr>
+</table>
+
+</section>
+
+<section>
+<h2>Curiosidades</h2>
+<ul>
+    <li>Nome baseado na presença do Espírito Santo</li>
+    <li>Grande impacto no YouTube</li>
+    <li>Eventos com milhares de jovens</li>
+</ul>
+</section>
+
+<section>
+<h2>Sobre o Brunão</h2>
+<p>
+Bruno é o líder da banda, conhecido por seu testemunho e influência na música cristã.
+</p>
+</section>
+
+</main>
+
+</div>
+</div>
+
+</body>
+</html>
